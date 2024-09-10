@@ -109,18 +109,6 @@ sns.catplot(data=dt,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
 
 ![image](https://github.com/user-attachments/assets/4b4f0e63-00e2-4206-8b19-4aff6e8ac8de)
-```
-numeric_dt=dt.select_dtypes(exclude=[object])
-corr=numeric_dt.corr()
-sns.heatmap(corr,annot=True)
-```
-
-![image](https://github.com/user-attachments/assets/0f496edc-97e0-4b29-8b0d-1b1059579d8d)
-```
-sns.pairplot(dt)
-```
-
-![image](https://github.com/user-attachments/assets/34900d81-0510-4bcf-9452-4f1906fd4696)
 
 # RESULT
         Thus the data analysis has been implemented succesfully.
